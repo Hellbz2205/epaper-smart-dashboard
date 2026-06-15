@@ -1,0 +1,12 @@
+[Unit]
+Description=E-Paper Smart Dashboard
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/epaper-smart-dashboard/main.py
+WorkingDirectory=/home/pi/epaper-smart-dashboard
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,6 @@
+requests
+pillow
+pytz
+pyyaml
+caldav
+python-dateutil

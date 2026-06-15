@@ -1,0 +1,20 @@
+fronius:
+  ip: "192.168.178.175"
+
+location:
+  lat: 49.444
+  lon: 7.768
+  city: "Kaiserslautern"
+
+weather:
+  api_key: "233ce47ce2e7aaa1720f29718a3097bb"
+
+display:
+  width: 1360
+  height: 480
+  rotation: 0
+
+calendar:
+  enabled: false
+  username: ""
+  password: ""
